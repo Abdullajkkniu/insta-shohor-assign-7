@@ -146,6 +146,7 @@ const showPosts = (posts) => {
 };
 
 const displayLikedPosts = () => {
+  document.getElementById( "liked" ).innerHTML='';
     const likedPosts = getLikedPosts();
     console.log(likedPosts)
 
